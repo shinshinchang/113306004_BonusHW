@@ -7,8 +7,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     margin: 0;
+    padding: 20px;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 .form-container {
@@ -41,7 +45,11 @@ body {
 }
 
 .input-row .input-group {
-    width: 30%;
+    width: 45%;;
+}
+
+.input-group input#input4 {
+    width: 75%;
 }
 
 textarea {
